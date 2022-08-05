@@ -45,7 +45,7 @@ body{
 
 .navbar{
     width: 100%;
-    height: auto;
+    height: 500px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -53,6 +53,9 @@ body{
     font-size:1.5rem;
     margin:2.5rem 0;
     padding: 0 0.7rem;
+    position: sticky;
+    top: 0;
+    background:black;
 }
 .nav{
     display:flex;
@@ -83,6 +86,8 @@ body{
     color: black;
     background: red;
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem;
 }
 .names{
     width:80%;
@@ -94,6 +99,7 @@ body{
     color:white;
     gap: 1.5rem;
     margin: 2rem 0;
+   
 }
 .names h3{
     display:flex;
@@ -106,6 +112,8 @@ body{
     color: black;
     background: rgb(24, 1, 230);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 .alphac{
     width: 95%;
@@ -113,6 +121,8 @@ body{
     color: black;
     background: rgb(107, 139, 190);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem   
 }
 .alphad {
     width: 95%;
@@ -120,6 +130,8 @@ body{
     color: black;
     background: rgb(41, 255, 219);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphae {
@@ -128,6 +140,8 @@ body{
     color: black;
     background: rgb(29, 236, 112);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphaf {
@@ -136,6 +150,8 @@ body{
     color: black;
     background: rgb(97, 117, 150);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 .alphag {
     width: 95%;
@@ -143,6 +159,8 @@ body{
     color: black;
     background: rgb(41, 255, 59);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphah {
@@ -151,6 +169,8 @@ body{
     color: black;
     background: rgb(0, 78, 204);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphai{
@@ -159,6 +179,8 @@ body{
     color: black;
     background: rgb(26, 255, 0);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphaj{
@@ -167,6 +189,8 @@ body{
     color: black;
     background: rgb(126, 146, 113);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 
 .alphak {
@@ -175,11 +199,14 @@ body{
     color: black;
     background: rgb(255, 55, 41);
     padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
 .alphal {
     width: 95%;
     height: 40px;
     color: black;
     background: rgb(132, 115, 21);
-    padding: 0 1rem;
+    position: sticky;
+    top: 2rem
 }
