@@ -3,55 +3,183 @@
     margin:0;
     box-sizing:border-box;
 }
+/* 
+body{
+    width: 100%;height: 100vh;
+} */
 
 .container{
     width: 40%;
-    height:auto;
+    height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
-    overflow-y:scroll;
+    overflow-y: scroll;
     background: black;
-    margin:0 auto;
+    margin:  auto;
 }
 .profile{
+    width: 100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
     color:white;
 }
-img{
+.profile img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit:cover;
-    margin:2rem 2rem;
+    margin:2rem 0;
 }
-figcaption{
+.profile h2{
     font-size: 1.5em;
     margin:0.2rem auto;
 }
-figcaption i{
+.profile h2{
     font-size:1rem;
     margin: 0 0.7rem;
 }
 
 .navbar{
-    width: 95%;
+    width: 100%;
     height: auto;
     display:flex;
     justify-content:space-between;
     align-items:center;
     color:white;
     font-size:1.5rem;
-    margin:2.5rem auto ;
+    margin:2.5rem 0;
+    padding: 0 0.7rem;
 }
 .nav{
     display:flex;
     gap:1rem;
 }
 .nav1{
-    
+    width: 80%;
+    height: auto;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    color:white;
+    gap: 1rem;
+    margin:1rem auto;
+}
+.contacts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.alpha {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: red;
+    padding: 0 1rem;
+}
+.names{
+    width:80%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color:white;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.names h3{
+    display:flex;
+    gap: 1.5rem;
+    margin: 0.7rem 0;
+}
+.alphab{
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(24, 1, 230);
+    padding: 0 1rem;
+}
+.alphac{
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(107, 139, 190);
+    padding: 0 1rem;
+}
+.alphad {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(41, 255, 219);
+    padding: 0 1rem;
+}
+
+.alphae {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(29, 236, 112);
+    padding: 0 1rem;
+}
+
+.alphaf {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(97, 117, 150);
+    padding: 0 1rem;
+}
+.alphag {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(41, 255, 59);
+    padding: 0 1rem;
+}
+
+.alphah {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(0, 78, 204);
+    padding: 0 1rem;
+}
+
+.alphai{
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(26, 255, 0);
+    padding: 0 1rem;
+}
+
+.alphaj{
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(126, 146, 113);
+    padding: 0 1rem;
+}
+
+.alphak {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(255, 55, 41);
+    padding: 0 1rem;
+}
+.alphal {
+    width: 95%;
+    height: 40px;
+    color: black;
+    background: rgb(132, 115, 21);
+    padding: 0 1rem;
 }
